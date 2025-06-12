@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        th,td{
+            border: 2px solid;
+            padding: 30px;
+
+
+        }
+        table{
+            width: 50%;
+            border-collapse: collapse;
+            background-color: rgb(226, 28, 28);
+        }
+        td{
+            padding: 40px;
+        }
+        td:nth-child(even),th:nth-child(even){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">name</th>
+            <th>age</th>
+            <th>course</th>
+        </tr>
+        <tr>
+            <td>sravan</td>
+            <td>raj</td>
+            <td>21</td>
+            <td>mern</td>
+        </tr>
+          <tr>
+            <td>adarsh</td>
+            <td>mk</td>
+            <td>20</td>
+            <td>mern</td>
+        </tr> 
+         <tr>
+            <td>ashik</td>
+            <td>aman</td>
+            <td>21</td>
+            <td>python</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th rowspan="2">name</th>
+            <td>sravan</td>
+        </tr>
+        <tr><td>raj</td></tr>
+        <tr>
+            <th rowspan="2">phone</th>
+            <td>2699496656</td>
+        </tr>
+        <tr><td>55411
+            4623331
+        </td></tr>
+    </table>
+</body>
+</html>

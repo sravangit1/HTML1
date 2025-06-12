@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #container{
+         display: flex;  
+        
+    }
+    #main{
+        margin-right: 50px;
+    }
+    #con{
+        font-family: sans-serif;
+        border-bottom: 1px solid rgb(146, 142, 142);
+    }
+    #pcode{
+        width: 70px;
+    }
+    #mtown{
+        margin-left: 10px;
+    }
+    #no{
+        width: 80px;
+    }
+    div{
+        margin-left: 30px;
+        font-family: sans-serif;
+        font-size: 12px;
+        
+    }
+    label{
+        color: gray;
+    }
+    </style>
+</head>
+<body>
+    <div id="con">
+        <h3>Customer</h3>
+        </div>
+        <div id="container">
+        <div id="main">
+            <h3>Customer Data:</h3>
+            <form>
+            <label for="">Name:</label><br>
+            <input type="text" value="john" required style="width: 250px;"><br><br>
+            <label for="">Middle Name:</label><br>
+            <input type="text"style="width: 250px;"><br><br>
+            <label for="">Last Name:</label><br>
+            <input type="text" value="Miller"style="width: 250px;"><br><br>
+            <label for="">Country:</label><br>
+            <input type="text" value="Germany"style="width: 250px;"><br><br>
+            <label for="">Postal code/city:</label><br>
+            <input type="text" id="pcode" value="12345"><input type="text" value="Maintown" id="mtown"><br><br>
+            <label for="">Street/No:</label><br>
+            <input type="text" value="main street"><input type="text" value="1618" id="no"><br><br>
+            <label for="">phone number:</label><br>
+            <input type="text" style="width: 250px;"><br><br>
+            <label for="">phone number 2:</label><br>
+            <input type="text" style="width: 250px;"><br><br>
+            <h3>other Details:</h3>
+            <label for="">Purchase Order:</label><br>
+            <input type="text" value="123456789123"style="width: 250px;"><br><br>
+            <label for="">Valid Form Date/Time:</label><br>
+            <input type="date" style="width: 150px;"> <input type="time" style="width: 96px;"><br>
+            </form>
+        </div>
+        <div>
+            <h3>Account</h3>
+            <form>
+            <label for="">Customer Account Group:</label><br>
+            <input type="text"style="width: 250px;"><br><br>
+            <label for="">Supplier Account Group:</label><br>
+            <input type="text"style="width: 250px;"><br><br>
+            <label for="">ID:</label><br>
+            <input type="text" value="PPH-VEND25"style="width: 250px;"><br><br>
+            <label for="">Contact:</label><br>
+            <input type="text" value="john Miller"style="width: 250px;"><br><br>
+            <label for="">phone:</label><br>
+            <input type="text" value="+1 202 345675"style="width: 250px;">
+            </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color: rgb(11, 239, 11);
+            animation: moving 2s  infinite alternate-reverse;
+        }
+        @keyframes moving{
+            0%{
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                left: 200px;
+                top: 0px;
+                border-radius: 150px;
+             }
+            50%{
+                left: 200px;
+                top: 200px;
+                border-radius: 150px;
+                }
+            75%{
+                left: 0px;
+                top: 200px;
+            }
+            100%{ 
+                 left: 0px;
+                top: 0px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

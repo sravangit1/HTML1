@@ -1,0 +1,277 @@
+   #main{
+            display: flex;
+            width: 235%;
+            justify-content: space-between;
+            height:50px;
+            
+            background-color: white;
+            
+        }
+        nav{
+            position:fixed;
+            top: 0;
+
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #icn1{
+            /* margin-left: 1030px; */
+            margin-top: 20px;
+            word-spacing: 5px;
+            margin-right: 20px;
+            font-family: sans-serif;
+        }
+        li{
+            display: inline;
+            /* padding-left: 60px; */
+            padding-right: 30px;
+            font-size: 15px;
+            font-family: sans-serif;
+            font-weight: 100px;
+        }
+       
+        #btn1{
+           margin-top: 4px;
+        }
+        #volvo{
+            font-size: 15px;
+            
+        }
+        #logo{
+            width: 130px;
+        }
+        .fa-message{
+            position: fixed;
+            margin-top: 610px;
+            margin-left: 1445px;
+        }
+        #v1{
+            width: 102.2%;
+            height: 590px;
+        }
+       #x{
+        color: white;
+        padding-top: 10px;
+        margin-right: 5px;
+       }
+        #banner{
+         height: 50px;
+         width: 102.2%;
+         background-color: black;
+         display: flex;
+         justify-content: space-between;
+         font-size: large;
+         
+        }
+         #banner1{
+         color: white;
+         padding-top: 15px;
+         margin-left: 500px;
+
+         }
+         #banner2{
+            color: white;
+            margin-right: 580px;
+            padding-top: 15px;
+            
+         }
+        #test{
+            display: flex;
+            align-items: center;
+        }
+        #test1{
+            margin-left: 200px;
+            font-family: sans-serif;
+            font-size: 17px;
+            text-align: left;
+           
+        }
+         #test2{
+            margin-left: 200px;
+            font-family: sans-serif;
+            font-size: 17px;
+            margin-top: 20px;
+         }
+        #p1{
+            font-size: 15px;
+            color: grey;
+            font-family: sans-serif;
+        }
+        #car{
+            display: flex;
+            align-items: center;
+        }
+        #car1{
+            width: 80%;
+            height: auto;
+            margin-top: 40px;
+            margin-left: 150px;
+        }
+        #cardes{
+            display: flex;
+            font-family: sans-serif;
+            word-spacing: 2px;
+        }
+        #cardes2{
+            margin-left: 43px;
+            
+        }
+        #cardes1{
+            margin-left: 155px;
+            
+        }
+        #c1{
+            /* display:flex; */
+            margin-left: 155px;
+            align-items: center;
+        }
+        #c2{
+            background-color:#aeaaaa;
+            width: 102.2%;
+            height: 450px;
+            word-spacing: 2px;
+            font-family: sans-serif;
+        }
+        #c3{
+             background-color: #808080;
+             width: 102.2%;
+             height: 250px;
+        }
+        #c4{
+            background-color: #808080;
+             width: 102.2%;
+             height: 100px;
+             border-top: 1px solid;
+             text-align: center;
+             font-family: sans-serif;
+             word-spacing: 2px;
+             
+        }
+        #xc90{
+            font-size: 30px;
+            margin-left: 100px;
+            padding-top: 50px;
+        }
+        #xc901{
+            margin-left: 100px;
+        }
+        #b1{
+            height:40px;
+            width: 80px;
+            background-color: rgb(36, 35, 35);
+            color: white;
+            margin-top: 30px;
+            border-radius: 5px;
+            font-family: sans-serif;
+            border: 1px;
+        }
+        #volvoxc90{
+            height: 400px;
+            width: 1000px;
+            margin-left: 230px;
+        }
+        #heading {
+            font-size: 30px;
+            font-weight: bold;text-align: center;
+            font-family: sans-serif;
+            word-spacing: 2px;
+
+        }
+        #black {
+            color: black;
+        }
+        #gray {
+            color: gray;
+        }
+        #volvolp{
+             width: 80%;
+            height: auto;
+            margin-top: 40px;
+            margin-left: 150px;
+        }
+        #vd{
+            display: flex;
+        }
+        #vd1{
+            margin-left: 149px;
+
+        }
+        #vd2{
+             margin-left: 50px;
+        }
+        #vd3{
+             margin-left: 40px;
+        }   
+        #lp{
+            display: flex;
+            justify-content:left;
+            align-items:center;
+            font-family: sans-serif;
+        } 
+        #last{
+            width: 652px;
+            height: auto;
+            padding-right: 700px;
+        } 
+        #lp1{
+            width: 700px;
+            height: auto;
+            margin-left: 100px;
+            margin-top: 80px;
+        } 
+        #h{
+            margin-top: 110px;
+          
+        }
+        #lp2{
+            margin-left: 30px;
+        }
+        #b2{
+            height:50px;
+            width: 100px;
+            /* margin-top: 30px; */
+            border-radius: 5px;
+            font-family: sans-serif;
+            border: 1px solid;
+            background-color: white;
+        }
+        #lastdiv{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            font-size: medium;
+            margin-top: 100px;
+        }
+        #lastdiv1{
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 1px;
+        }
+        #lastdiv2{
+            margin-left: 0px;
+        }
+        #symbol{
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+        }
+        #s1{
+            margin: 20px;
+            font-size: 20px;
+            
+        }
+        #ll{
+            text-align: center;
+            color: gray;
+            font-size: 11px;
+            font-family: sans-serif;
+        }
+        #u{
+            font-size: 11px;
+        }
+       
