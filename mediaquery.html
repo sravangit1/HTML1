@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .sidebar{
+        background-color: rgb(200, 193, 193);
+        width: 100%;
+        height: 30px;
+        
+    }
+    .ite{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .item{
+        background-color: gray;
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        margin-top: 10px;
+    }
+    @media screen and (max-width:800px) {
+        .ite{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+    }
+    @media screen and (max-width:500px) {
+        .ite{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+        }
+        .sidebar{
+            display: none;
+        }
+        
+    }
+     @media screen and (max-width:400px) {
+        .ite{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            
+        }
+        body{
+            background-color: aqua;
+        }
+        .sidebar{
+            display: none;
+        }
+        
+    }
+    @media screen and (max-width:200px) {
+        .ite{
+            display: grid;
+            grid-template-columns: 1fr  ;
+        }
+        
+    }
+    </style>
+</head>
+<body>
+    <div class=sidebar>
+<p>Sidebar content goes here</p>
+    </div>
+    <div class="ite">
+    <div class="item">item1</div>
+    <div class="item">item2</div>
+    <div class="item">item3</div>
+    <div class="item">item4</div>
+    </div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, est!
+</body>
+</html>
